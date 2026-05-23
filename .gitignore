@@ -1,0 +1,46 @@
+# ====== VSCode 相关 ======
+.vscode/
+.vs/
+*.code-workspace
+.vscode/*.log
+.vscode/ipch/
+.vscode/compileCommands.json
+
+# ====== C/C++ 编译产物 ======
+*.o
+*.obj
+*.exe
+*.out
+*.bin
+*.elf
+*.a
+*.lib
+*.so
+*.dll
+*.dSYM/
+build/
+bin/
+obj/
+cmake-build-*/
+Makefile
+CMakeLists.txt.user
+
+# ====== 临时文件 ======
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# ====== LeetCode 插件 / 缓存 ======
+leetcode.cache/
+.cph/
+leetcode-cli/
+
+# ====== 日志与调试 ======
+*.log
+*.stackdump
+core
+core.*
