@@ -6,7 +6,7 @@
  * - Use dfs recursive call function
  *
  * Time:  O(n)
- * Space: O(h) - h = the height of the tree
+ * Space: O(h) - h = the height of the tree, worst case O(n)
  */
 
 /**
